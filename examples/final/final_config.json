@@ -2,7 +2,7 @@
     "subjects_filename": "examples/final/final_subjects.json",
     "generate_filenames": "templates",
     "generate_filenames_kwargs": {
-      "directory": "TrainingData",
+      "directory": "TestingData",
       "feature_templates": [
         "Training_{subject}_t1.nii.gz",
         "Training_{subject}_t1ce.nii.gz",
