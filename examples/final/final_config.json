@@ -46,13 +46,13 @@
     },
     "skip_validation": true,
     "iterations_per_epoch": 1,
-    "n_outputs": 3,
+    "n_outputs": 4,
     "sequence": "WholeVolumeSegmentationDataset",
     "sequence_kwargs": {
       "normalization": "zero_mean",
       "crop": true,
       "interpolation": "linear",
-      "labels": [1, 2, 3],
+      "labels": [0, 1, 2, 3],
       "add_contours": false,
       "use_label_hierarchy": true
     },
